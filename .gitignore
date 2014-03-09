@@ -5,3 +5,7 @@ _site
 codekit-config.json
 node_modules
 _asset_bundler_cache
+.bundle
+.ruby-version
+sample_posts
+Gemfile.lock
