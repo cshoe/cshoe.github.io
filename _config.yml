@@ -4,13 +4,16 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
+#
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin : "dark" #"default" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
 
 # Site Settings
-locale                   : "en"
-title                    : "Site Title"
+locale                   : "en-US"
+title                    : "Shoegazin'"
 title_separator          : "-"
 name                     : "Chris Schomaker"
-description              : "Ramblings about code and bikes."
+description              : ""
 url                      : "https://cshoe.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "cshoe/cshoe.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -55,7 +58,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "cshoe_"
 facebook:
   username               :
   app_id                 :
@@ -74,14 +77,18 @@ analytics:
   google:
     tracking_id          :
 
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+
 
 # Site Author
 author:
   name             : "Chris Schomaker"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Portland, OR"
-  email            : "schomakerc@gmail.com"
+  avatar           : "https://secure.gravatar.com/avatar/234a529d2975e484e8ad0e55fe464f2f?s=600"
+  bio              : ""
+  location         : ""
+  email            : ""
   uri              :
   bitbucket        :
   codepen          :
@@ -179,7 +186,7 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
