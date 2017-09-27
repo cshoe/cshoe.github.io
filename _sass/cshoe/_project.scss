@@ -1,0 +1,59 @@
+/* ==========================================================================
+   PROJECT
+   ========================================================================== */
+
+#project_main {
+    margin-top: 0;
+}
+
+.project
+
+  #project__header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(68vh - 81px);
+    justify-content: center;
+    padding: 120px 20px;
+    position: relative;
+    @media screen and (min-width: 768px) {
+        padding: 40px;
+    }
+  }
+
+    #project__logo {
+      max-height: 120px;
+    }
+
+    #project__title {
+      text-align: center;
+      margin-top: 1em;
+    }
+
+    #project__description {
+      text-align: center;
+      max-width: 760px;
+    }
+
+    #project__wrapper {
+        padding: 0 40px;
+    }
+
+    #project__content_wrapper {
+        display: flex;
+    }
+
+    #project__sidebar {
+        flex: 0 0 15%;
+    }
+
+    #project__content {
+        flex: 1;
+    }
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}

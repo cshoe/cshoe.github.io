@@ -42,14 +42,12 @@
         </li>
       {% endif %}
 
-      {% if author.email %}
-        <li>
-            <a href="http://www.google.com/recaptcha/mailhide/d?k=017_0qSck4Ft9xRcnngcfzJQ==&amp;c=G0QOpnnGwlen4w7N_d7ppoyhiHhYmN_OL6CSuCDcQak=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d017_0qSck4Ft9xRcnngcfzJQ\x3d\x3d\x26c\x3dG0QOpnnGwlen4w7N_d7ppoyhiHhYmN_OL6CSuCDcQak\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">
-                <meta itemprop="email" content="Email" />
-                <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
-            </a>
-        </li>
-      {% endif %}
+      <li>
+        <a href="http://www.google.com/recaptcha/mailhide/d?k=017_0qSck4Ft9xRcnngcfzJQ==&amp;c=G0QOpnnGwlen4w7N_d7ppoyhiHhYmN_OL6CSuCDcQak=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d017_0qSck4Ft9xRcnngcfzJQ\x3d\x3d\x26c\x3dG0QOpnnGwlen4w7N_d7ppoyhiHhYmN_OL6CSuCDcQak\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">
+            <meta itemprop="email" content="Email" />
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
+        </a>
+      </li>
 
       {% if author.keybase %}
         <li>
