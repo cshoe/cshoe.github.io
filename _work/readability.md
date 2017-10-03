@@ -1,5 +1,5 @@
 ---
-title: "Readability (RIP)"
+title: "Readability"
 date: 2012-12-01
 logo:
   url: /assets/images/readability/logo.png

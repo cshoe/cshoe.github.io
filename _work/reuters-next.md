@@ -1,5 +1,5 @@
 ---
-title: "Reuters Next (RIP)"
+title: "Reuters Next"
 date: 2011-12-01
 logo:
   url: /assets/images/reuters-next/logo.png

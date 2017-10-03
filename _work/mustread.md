@@ -1,5 +1,5 @@
 ---
-title: "Mustread (RIP)"
+title: "Mustread"
 date: 2013-01-01
 logo:
   url: /assets/images/mustread/logo.png

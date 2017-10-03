@@ -1,5 +1,5 @@
 ---
-title: "Lofty (RIP)"
+title: "Lofty"
 date: 2010-02-01
 show_title: false
 logo:
