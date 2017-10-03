@@ -17,7 +17,7 @@
     padding: 120px 20px;
     position: relative;
     @media screen and (min-width: 768px) {
-        padding: 40px;
+      padding: 40px;
     }
   }
 
@@ -49,6 +49,7 @@
 
     #project__content {
         flex: 1;
+        margin-left: 1em;
     }
 
 .wrapper {
@@ -56,4 +57,38 @@
     top: 0;
     left: 0;
     width: 100%
+}
+
+/* Project grid styles */
+
+.project__item {
+    height: 210px;
+    text-align: center;
+
+    .project__item-teaser {
+        min-height: 50px;
+    }
+
+    img {
+        max-width: 75%;
+        max-height: 50px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .project__item-title {
+        font-size: .8em;
+
+        a {
+          color: $text-color;
+        }
+    }
+
+    .project__item-excerpt {
+        font-size: .8em;
+
+        @include breakpoint($large) {
+          font-size: .7em;
+        }
+    }
 }

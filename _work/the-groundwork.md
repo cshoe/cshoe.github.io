@@ -1,10 +1,11 @@
 ---
 title: "The Groundwork"
+date: 2014-08-01
 logo:
   url: /assets/images/the-groundwork/logo.png
   alt: "The Groundwork"
 description: "A platform for modern movements. Non-profits use it to raise money, host events and collect data. It played a key role in Hillary Clinton's 2016 Presidential campaign."
-excerpt: ""
+excerpt: "A platform for modern movements."
 sidebar:
   - title: "Role"
   - text: "Senior Software Engineer"

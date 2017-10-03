@@ -86,9 +86,9 @@ webrick:
 author:
   name             : "Chris Schomaker"
   avatar           : "https://secure.gravatar.com/avatar/234a529d2975e484e8ad0e55fe464f2f?s=600"
-  bio              : ""
-  location         : ""
-  email            : ""
+  bio              : 
+  location         : 
+  email            : 
   uri              :
   bitbucket        :
   codepen          :
@@ -117,7 +117,7 @@ author:
 
 # Reading Files
 collections:
-  projects:
+  work:
     output: true
     permalink: /:collection/:path/
 include:
