@@ -5,8 +5,93 @@ permalink: /work/
 author_profile: true
 ---
 <p>
-I've been writing software professionally for over 10 years. I've helped build fundraising platforms for a non-profit and a Presidential campaign, a custom CMS for an international news organization, data pipelines and build tools. I've written COBOL on a mainframe and worked on a parsing engine for the web. I like big systems as well as small tools. I'm most comfortable with Python but feel comfortable in any ecosystem after I figure out dependency management. At the end of the day, the language is just the expression of the solution.
+    I've been writing software professionally for over 10 years. I've helped build fundraising platforms for a <a href="{% link _work/mycharitywater.md %}">non-profit</a> and a <a href="{% link _work/the-groundwork.md %}">Presidential campaign</a>, a custom CMS for an <a href="{% link _work/reuters-next.md %}">international news organization</a>, data pipelines and build tools.
 </p>
+
+<p>
+    I enjoy tedious problems like query performance as well as the blue-sky design phase. I think clean solutions start with requirements gathering and I like to apply campsite rules to codebases and leave them better than I found them.
+</p>
+
+<div class="skills-list-wrapper">
+    <h4>I've Used These in Production Environments</h4>
+    <div class="skills-list">
+        <h4>Languages</h4>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Javascript</li>
+            <li>PHP</li>
+            <li>COBOL</li>
+        </ul>
+    </div>
+    <div class="skills-list">
+        <h4>Frameworks</h4>
+        <ul>
+            <li>Django</li>
+            <li>Tornado</li>
+            <li>Flask</li>
+            <li>jQuery</li>
+            <li>Backbone.js</li>
+        </ul>
+    </div>
+    <div class="skills-list">
+        <h4>Datastores</h4>
+        <ul>
+            <li>MySQL</li>
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+            <li>DynamoDB</li>
+            <li>Memcached</li>
+            <li>Redis</li>
+        </ul>
+    </div>
+    <div class="skills-list">
+        <h4>Tools</h4>
+        <ul>
+            <li>Spinnaker</li>
+            <li>Travis CI</li>
+            <li>Jenkins</li>
+            <li>Ansible</li>
+            <li>Puppet</li>
+        </ul>
+    </div>
+</div>
+
+<div class="skills-list-wrapper">
+    <h4>I've Tinkered With These</h4>
+    <div class="skills-list">
+        <h4>Languages</h4>
+        <ul>
+            <li>C</li>
+            <li>Go</li>
+            <li>Swift</li>
+            <li>Objective-C</li>
+        </ul>
+    </div>
+    <div class="skills-list">
+        <h4>Frameworks</h4>
+        <ul>
+            <li>AngularJS</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </div>
+    <div class="skills-list">
+        <h4>Datastores</h4>
+        <ul>
+            <li>Elasticsearch</li>
+        </ul>
+    </div>
+    <div class="skills-list">
+        <h4>Tools</h4>
+        <ul>
+            <li>Packer</li>
+            <li>Docker</li>
+            <li>Salt</li>
+            <li>Chef</li>
+        </ul>
+    </div>
+</div>
 
 {% assign posts = site.work | sort: 'date' %}
 

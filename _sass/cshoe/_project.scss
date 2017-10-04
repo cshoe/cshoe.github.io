@@ -92,3 +92,40 @@
         }
     }
 }
+
+.skills-list-wrapper {
+    width: 100%;
+    @include clearfix;
+
+    h4 {
+        margin-top: 1em;
+        margin-bottom: .5em;
+    }
+}
+
+.skills-list {
+    list-style: none;
+    float: left;
+    width: calc(100% / 4);
+
+    h4 {
+        margin-bottom: .5em;
+        font-weight: normal;
+    }
+
+    ul {
+        margin: 0 .5em 0 0;
+        list-style-type: circle;
+
+        li {
+            font-size: 0.65em
+        }
+    }
+
+    &:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+}
