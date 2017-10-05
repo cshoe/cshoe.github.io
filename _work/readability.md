@@ -24,11 +24,11 @@ gallery:
 layout: project
 ---
 <p>
-    Readability was a bookmarking service hooked up to a powerful parsing engine. It stripped away clutter and placed a page's content in a configurable interface. A user could choose from different fonts, font sizes, colors and line width to create a reading interface that was comfortable. The service had it's roots in a browser plugin that went on to <a href="https://www.theregister.co.uk/2010/06/08/safari_reader_based_on_open_source_project/" rel="external">inspire Apple's Safari Reader</a>. Many found the service useful. The iOS apps were featured by Apple and there were over a million users on the platform.
+    Readability was a bookmarking service hooked up to a powerful parsing engine. It stripped away clutter and placed a page's content in a configurable interface. A user could choose from different fonts, font sizes, colors and line width to create a reading interface that was comfortable. The service had its roots in a browser plugin that went on to <a href="https://www.theregister.co.uk/2010/06/08/safari_reader_based_on_open_source_project/" rel="external">inspire Apple's Safari Reader</a>. Many found the service useful. The iOS apps were featured by Apple and there were over a million users on the platform.
 </p>
 
 <p>
-    There was some controversy around Readability. Removing ads from a webpage obviously isn't ideal for those who depend on advertising revenue. Surprisingly that wasn't the most controversial aspect. Well before micro-payments were a mainstream discussion, Readability experimented with a business model aiming to support itself and content creators. The model had it's flaws but was an honest exploration into a new way to support content creators on the web.
+    There was some controversy around Readability. Removing ads from a webpage obviously isn't ideal for those who depend on advertising revenue. Surprisingly that wasn't the most controversial aspect. Well before micro-payments were a mainstream discussion, Readability experimented with a business model aiming to support itself and content creators. The model had its flaws but was an honest exploration into a new way to support content creators on the web.
 </p>
 
 <p>
