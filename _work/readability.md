@@ -28,19 +28,7 @@ layout: project
 </p>
 
 <p>
-    There was some controversy around Readability. Removing ads from a webpage obviously isn't ideal for those who depend on advertising revenue. Surprisingly that wasn't the most controversial aspect. Well before micro-payments were a mainstream discussion, Readability experimented with a business model aiming to support itself and content creators. The model had its flaws but was an honest exploration into a new way to support content creators on the web.
-</p>
-
-<p>
-    Another controversial aspect of Readability had to do with paywalls. With the design of the platform, it was possible to serve content that should have otherwise been behind a paywall to users who weren't paying the publisher. I was personally torn on the subject because these design decisions had a beneficial consequence as well. Firewalls were bypassed the same way paywalls were. Because of this, we had a large amount of traffic coming from countries who attempted to limit what is available to their citizens on the Internet.
-</p>
-
-<p>
-    There were three big features I was proud to work on at Readability: tagging, Facebook integration and Recommendations. The Facebook integration consisted of both Facebook authentication and creating custom OpenGraph objects for the platform. This enabled users to easily share what they were reading as well as allowing us to have a bit of control over how bookmarks and articles were presented on Facebook. Working on tagging and Recommendations taught me the usefulness of <a href="https://en.wikipedia.org/wiki/Set_(mathematics)" rel="external">set math</a>. Computing common followers or finding bookmarks with a common subset of tags is trivial if a language or datastore has support for basic set operations.
-</p>
-
-<p>
-    More than these features or the service itself, I was proud to be a part of the team. In addition to crafting the frontend, <a href="https://tylergaw.com/" rel="external">Tyler Gaw</a> pushed the vision of the platform forward, <a href="https://twitter.com/philipforget" rel="external">Philip Forget</a> made the hard technical decisions, and <a href="https://twitter.com/gooeyblob" rel="external">Kevin O'Connor</a> kept the thing running. <a href="http://mciarlo.com/" rel="external">Mike Ciarlo</a> and <a href="https://twitter.com/zeeshanlakhani" rel="external">Zeeshan Lakhani</a> created a beautiful iOS app. The whole thing was the brain child of <a href="http://www.umbrae.net/" rel="external">Chris Dary</a>.
+    There were three big features I worked on at Readability: tagging, Facebook integration and Recommendations. Integrating with Facebook meant  both authentication and creating custom OpenGraph objects for the platform. This enabled users to easily share what they were reading as well as allowing us to have a bit of control over how bookmarks and articles were presented on Facebook.
 </p>
 
 <p>

@@ -4,7 +4,7 @@ date: 2014-08-01
 logo:
   url: /assets/images/the-groundwork/logo.png
   alt: "The Groundwork"
-description: "A platform for modern movements. Non-profits use it to raise money, host events and collect data. It played a key role in Hillary Clinton's 2016 Presidential campaign."
+description: "A platform for modern movements."
 excerpt: "A platform for modern movements."
 sidebar:
   - title: "Role"
@@ -24,11 +24,11 @@ gallery:
 layout: project
 ---
 <p>
-    Even if you remove the campaign, The Groundwork was the most challenging work of my career. We built a ton of tech for a team our size. There were scalable micro-services, some of the best ops tools and processes I've ever seen, and a message passing concept I was really excited about.
+    Non-profits use The Groundwork to raise money, host events and collect data. It played a key role in Hillary Clinton's 2016 Presidential campaign.
 </p>
 
 <p>
-    My main focus was on donation processing for most of the campaign. As the election grew closer, I shifted some of my energy to working on the main data pipeline that ran through the platform terminating in Elasticsearch. I also worked on a service to collect user defined data structures which leveraged <a href="http://json-schema.org/" rel="external">JSON Schema</a>. Using JSON Schema enabled the service to validate input according to user defined criteria as well as provide a structure clients could use to build forms. These data flows combined with a rules engine allowed organizations to collect data from many different sources and act. A small example would be the email service sending different receipts based on donation amount without the donation service ever sending a direct request for a receipt.
+    My main focus on The Groundwork was donation processing. I also worked on the main data pipeline that ran through the platform terminating in Elasticsearch as well as  a service to collect arbitrary data which leveraged <a href="http://json-schema.org/" rel="external">JSON Schema</a> to validate input. These data flows combined with a rules engine allowed organizations to put their data to work for them.
 </p>
 
 <p>

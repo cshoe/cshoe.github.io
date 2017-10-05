@@ -14,11 +14,6 @@ sidebar:
   - text: "AWS, Python, Django, Memcached, PostgreSQL"
 layout: project
 ---
-
-<p>
-    Lofty was another source of firsts for me. It was my first time working on a production Python/Django app, my first time deploying something to "the cloud", my first interaction with geo queries and the first place I met <a href="https://twitter.com/0x71" rel="external">Corey</a>, who has remained a friend and co-worker over the years.
-</p>
-
 <p>
     The concept of Lofty was simple -- create a vacation rental market place with more European supply than Airbnb. The perception was Airbnb was supplying American properties to American and international demand but was lagging behind in getting European properties on board. Lofty attempted to beat them to the punch by partnering with many small companies throughout Europe to provide a single marketplace for European vacation rentals.
 </p>
