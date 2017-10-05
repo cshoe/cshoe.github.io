@@ -129,3 +129,33 @@
     }
 
 }
+
+.project__showcase {
+    h3 {
+        //text-align: center;
+        //margin: auto;
+        //width: 50%;
+        border-bottom: 1px solid $gray;
+    }
+
+    p {
+        margin-bottom: 11px;
+        //text-align: center;
+    }
+
+    img.logo {
+        max-height: 120px;
+        margin: auto;
+        display: block;
+    }
+
+    img.screenshot {
+        border: medium solid $gray;
+    }
+
+    a {
+        margin-bottom: 11px;
+        font-size: .8em;
+        display: block;
+    }
+}
