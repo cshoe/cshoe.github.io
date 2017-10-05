@@ -9,7 +9,11 @@ author_profile: true
 </p>
 
 <p>
-    I enjoy tedious problems like query performance as well as the blue-sky design phase. I think clean solutions start with requirements gathering and I like to apply campsite rules to codebases and leave them better than I found them.
+    I enjoy tedious problems like query performance as well as the blue-sky design phase. I think clean solutions start with requirements gathering and try to apply campsite rules to codebases, leaving them better than I found them.
+</p>
+
+<p>
+    I'm currently looking for an opportunity to leverage my past experience and work in new spaces like mobile, desktop apps, operating systems and games.
 </p>
 
 <div class="skills-list-wrapper">
@@ -18,8 +22,8 @@ author_profile: true
         <h4>Languages</h4>
         <ul>
             <li>Python</li>
-            <li>Java</li>
             <li>Javascript</li>
+            <li>Java</li>
             <li>PHP</li>
             <li>COBOL</li>
         </ul>
